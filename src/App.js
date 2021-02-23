@@ -3,13 +3,13 @@ import './App.css'
 
 
 
-import Input from './Components/Sorteador'
+import Sorteador from './Componentes/Sorteador'
 
 export default props => (
   <div className="App">
 
-      <Input valor={8}></Input>
-      
+      <Sorteador valor={8}></Sorteador>
+
   </div>
   
 )
